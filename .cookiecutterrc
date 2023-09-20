@@ -1,0 +1,61 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary extxyz-ase
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=extxyz-ase/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    allow_tests_inside_package: "no"
+    c_extension_function: "longest"
+    c_extension_module: "_extxyz_ase"
+    c_extension_optional: "no"
+    c_extension_support: "no"
+    codacy: "no"
+    codacy_projectid: "[Get ID from https://app.codacy.com/gh/libAtoms/extxyz-ase/settings]"
+    codeclimate: "no"
+    codecov: "yes"
+    command_line_interface: "no"
+    command_line_interface_bin_name: "extxyz-ase"
+    coveralls: "no"
+    distribution_name: "extxyz-ase"
+    email: "J.R.Kermode@warwick.ac.uk"
+    formatter_quote_style: "double"
+    full_name: "James Kermode"
+    github_actions: "yes"
+    github_actions_osx: "yes"
+    github_actions_windows: "yes"
+    license: "MIT license"
+    package_name: "extxyz_ase"
+    pre_commit: "yes"
+    project_name: "ExtXYZ ASE Plugin"
+    project_short_description: "Extended XYZ I/O Plugin for use with the Atomic Simulation Environment (ASE)"
+    pypi_badge: "yes"
+    pypi_disable_upload: "no"
+    release_date: "today"
+    repo_hosting: "github.com"
+    repo_hosting_domain: "github.com"
+    repo_main_branch: "main"
+    repo_name: "extxyz-ase"
+    repo_username: "libAtoms"
+    scrutinizer: "no"
+    setup_py_uses_setuptools_scm: "no"
+    sphinx_docs: "yes"
+    sphinx_docs_hosting: "https://libatoms.github.io/extxyz-ase"
+    sphinx_doctest: "no"
+    sphinx_theme: "sphinx-rtd-theme"
+    test_matrix_separate_coverage: "no"
+    version: "0.0.1"
+    version_manager: "bump2version"
+    website: "https://warwick.ac.uk/jrkermode"
+    year_from: "2023"
+    year_to: "2023"
