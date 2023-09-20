@@ -14,8 +14,11 @@ Overview
         | |codecov|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
 
+
+.. |docs| image:: https://img.shields.io/badge/Docs-stable-blue
+    :alt: Documentation
+    :target: https://libatoms.github.io/extxyz-ase
 
 .. |github-actions| image:: https://github.com/libAtoms/extxyz-ase/actions/workflows/github-actions.yml/badge.svg
     :alt: GitHub Actions Build Status
@@ -40,12 +43,6 @@ Overview
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/extxyz-ase.svg
     :alt: Supported implementations
     :target: https://pypi.org/project/extxyz-ase
-
-.. |commits-since| image:: https://img.shields.io/github/commits-since/libAtoms/extxyz-ase/v0.0.1.svg
-    :alt: Commits since latest release
-    :target: https://github.com/libAtoms/extxyz-ase/compare/v0.0.1...main
-
-
 
 .. end-badges
 
